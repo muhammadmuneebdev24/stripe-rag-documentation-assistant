@@ -1,6 +1,6 @@
-# Stripe Documentation Assistant using RAG and Unsloth
+Stripe Documentation Assistant using RAG and Unsloth
 
-## Overview
+Overview
 
 This project is a Retrieval-Augmented Generation (RAG) based chatbot that answers questions related to Stripe documentation. The system retrieves relevant information from Stripe documents and generates responses using a Large Language Model (LLM).
 
@@ -8,7 +8,7 @@ The chatbot only answers questions related to Stripe documentation and avoids an
 
 ---
 
-## Features
+Features
 
 - Answers questions about Stripe documentation.
 - Uses Retrieval-Augmented Generation (RAG).
@@ -25,7 +25,7 @@ The chatbot only answers questions related to Stripe documentation and avoids an
 
 ---
 
-## Technologies Used
+Technologies Used
 
 - Python
 - LangChain
@@ -37,7 +37,7 @@ The chatbot only answers questions related to Stripe documentation and avoids an
 
 ---
 
-## How It Works
+How It Works
 
 1. Stripe documentation is collected and stored as Markdown files.
 2. The documents are split into smaller chunks.
@@ -49,7 +49,7 @@ The chatbot only answers questions related to Stripe documentation and avoids an
 
 ---
 
-## Project Structure
+Project Structure
 
 ```text
 Stripe_RAG_Project/
@@ -68,16 +68,16 @@ Stripe_RAG_Project/
 
 > Note: The project can run on CPU, but responses may be much slower.
 
-## Installation
+Installation
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone <your-github-repository-link>
 cd Stripe_RAG_Project
 ```
 
-### 2. Create a Virtual Environment
+2. Create a Virtual Environment
 
 Windows:
 
@@ -85,7 +85,7 @@ Windows:
 python -m venv .venv
 .venv\Scripts\activate
 
-### 3. Install PyTorch
+3. Install PyTorch
 
 For NVIDIA GPU:
 
@@ -99,7 +99,7 @@ For CPU (optional):
 pip install torch(Without GPU it will work but will give answers quit slower )
 ```
 
-### 4. Install Project Dependencies
+4. Install Project Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -107,7 +107,7 @@ pip install -r requirements.txt
 
 ---
 
-## Running the Project
+Running the Project
 
 Go to the source folder:
 
