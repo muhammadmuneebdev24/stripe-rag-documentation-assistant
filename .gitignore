@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+huggingface_tokenizers_cache/
+unsloth_compiled_cache/
+.venv/
+.ipynb_checkpoints/
